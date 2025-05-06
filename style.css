@@ -1,0 +1,92 @@
+*{
+    scroll-behavior: smooth;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+     }
+  
+   .parent{
+    border: none;
+    height: 70vh;
+    width: 50vw;
+    position: relative;
+    margin: auto;
+    top: 5em;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;;
+   }
+
+   .image{
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    height: 5vw;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+   }
+
+   li{
+    font-size: larger;
+   }
+
+   h1{
+    font-size: 45px;
+   }
+
+   .text{
+    float: inline-end;
+    margin-right: 90px;
+    margin-top: 20px;
+   }
+
+   .text1{
+    color: maroon;
+    font-size: 50px;
+   }
+
+   button{
+    background-color: maroon;
+    color: white;
+    padding: 12px;
+    margin-top: 23px;
+    border: none;
+    border-radius: 10px;
+   }
+   button:hover{
+    background-color: rgb(199, 44, 44);
+    cursor: cell;
+   }
+
+   .heading{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   }
+
+   .child{
+    border: none;
+    background-color: rgb(156, 5, 5);
+    box-shadow: grey 5px 5px 6px;
+    position: absolute;
+    margin: -22em 0 0 18em;
+    width: 20%;
+    height: 63%;
+   }
+
+   .apple{
+    height: 50vh;
+    margin-left: -100px;
+    margin-top: 20px;
+    filter: drop-shadow(8px 8px 16px rgba(0, 0, 0, 1));
+   }
+
+   .fewapple,.fewapples{
+    height: 6vh;
+    margin-top: 8px;
+    margin-left: 19px;
+    box-shadow: rgba(14, 30, 37, 0.20) 0px 2px 4px 0px, rgba(14, 30, 37, 0.40) 0px 2px 16px 0px;
+   }
+
+   .allapple{ 
+    margin-top: 2px;
+    height: 9vh;
+    background-color: white;
+   }
+   
